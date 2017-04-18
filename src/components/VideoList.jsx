@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoListItem from './VideoListItem';
 
-// Class Component
+// Simple Component (Functional Component)
 const VideoList = (props) => {
   const videoItems = props.videos.map((video) => {
 

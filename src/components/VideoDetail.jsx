@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Simple Component (Functional Component)
 const VideoDetail = ({ video }) => {
   if (!video) {
     return <div>Loading...</div>;
